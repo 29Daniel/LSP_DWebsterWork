@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.assignment4;
+package org.howard.edu.lsp.assignment4.implementation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,7 +61,7 @@ public class IntegerSet  {
      * Checks if the set is empty and returns true if it is or false if it isn't
      * @return a boolean value 
      */
-    boolean isEmpty() {
+    public boolean isEmpty() {
         if(set.isEmpty()) {
             return true;
         }
