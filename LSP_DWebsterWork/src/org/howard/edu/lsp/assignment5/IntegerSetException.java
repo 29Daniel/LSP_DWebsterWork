@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.assignment4.implementation;
+package org.howard.edu.lsp.assignment5;
 
 /**
  * Daniel Webster
@@ -10,6 +10,7 @@ package org.howard.edu.lsp.assignment4.implementation;
  * to be run
  */
 public class IntegerSetException extends Exception {
+	
 	private static final long serialVersionUID = 1L;
 
 	/**

@@ -163,7 +163,6 @@ public class IntegerSet  {
      * @param integerSetB set object used in finding difference
      */
     public void diff(IntegerSet integerSetB) {
-        List<Integer> tempSet = new ArrayList<Integer>(set);
         set.removeAll(integerSetB.set);
     };
 
